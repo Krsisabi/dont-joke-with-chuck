@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --main-font: FiraSans, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --secondary-font: Montserrat, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+
+  --gray: #767676;
+  --black: #282626;
+  --white: #ffffff;
+  --purple: #656ec2;
+
+  --shadow: 0px 7px 25px 0px rgba(100, 100, 111, 0.2);
+  --shadow-strong: 0px 7px 25px 0px rgba(100, 100, 111, 0.2);
+  --shadow-thin: 0px 7px 12px 0px rgba(100, 100, 111, 0.2);
+
+  --shadow-hover: 0 1px 2px -2px rgba(0, 0, 0, 0.16),
+    0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09);
+}
+
+body {
+  font-family: var(--main-font);
+  width: 100vw;
+  overflow-x: hidden;
+}
