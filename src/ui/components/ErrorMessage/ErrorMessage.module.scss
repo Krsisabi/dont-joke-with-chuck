@@ -1,0 +1,12 @@
+.error {
+  max-width: 626px;
+  margin: 0 auto;
+
+  .title {
+    color: var(--error);
+  }
+
+  .message {
+    margin-top: 16px;
+  }
+}
