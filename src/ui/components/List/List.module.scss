@@ -8,3 +8,12 @@
     gap: 16px;
   }
 }
+
+.loader {
+  margin: 0 auto;
+  width: fit-content;
+  line-height: 20px;
+  padding: 19px 36px 21px;
+  box-shadow: var(--shadow-thin);
+  color: var(--gray);
+}
