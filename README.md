@@ -1,27 +1,19 @@
-# React + TypeScript + Vite
+# Тестовое задание - Frontend Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Описание задачи:
+Нужно реализовать поиск по элементам и отобразить найденные элементы на странице с помощью приведенного API. При заходе на страницу пользователь изначально видит только поиск, в который может ввести значение.
 
-Currently, two official plugins are available:
+## Технические требования:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Адаптивная вёрстка от 320px до 1920px
+- Поддержка браузеров: последняя версия Chrome
+- Использование React или Vue
+- Использование любого стейт-менеджера на выбор (Redux, MobX, Effector, - Vuex и т.д.)
+- Если в дизайне чего-то не хватает, попытаться самостоятельно отобразить в интерфейсе
 
-## Expanding the ESLint configuration
+## Требования задачи
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Поиск автоматически должен быть в фокусе для удобства
+- При введении более трех символов должен отправляться запрос к API
+- Каждая карточка ведёт на страницу из поля URL элемента
+- Готовый код выложить либо на GitHub+GitHub Pages или в CodeSandbox, чтобы можно было легко проверить работающую страницу.
